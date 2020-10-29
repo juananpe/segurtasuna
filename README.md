@@ -5,6 +5,7 @@
 * Ubuntu:
   - Install docker: https://docs.docker.com/engine/install/ubuntu/#installation-methods
   - Add your user to docker group.   **Run this command in your favourite shell and then completely log out of your account and log back in** (or exit your SSH session and reconnect, **if in doubt, reboot the computer** you are trying to run docker on!):
+  
   ``sudo usermod -a -G docker $USER``
   - Try to list running containers: (you should get an empty list, without errors)
   ``docker ps``
