@@ -4,6 +4,8 @@
 
 * Ubuntu:
   - Install docker: https://docs.docker.com/engine/install/ubuntu/#installation-methods
+  - Add your user to docker group:
+  ``sudo usermod -a -G docker $USER``
 * macOS:
   - Install docker desktop: https://hub.docker.com/editions/community/docker-ce-desktop-mac/
 
