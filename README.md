@@ -2,9 +2,10 @@
 
 ## Dependencies:
 
-* Docker and docker-compose:
-``sudo apt install docker-compose ``
-
+* Ubuntu:
+  - Install docker: https://docs.docker.com/engine/install/ubuntu/#installation-methods
+* macOS:
+  - Install docker desktop: https://hub.docker.com/editions/community/docker-ce-desktop-mac/
 
 ## How to use
 * Clone the repo:
