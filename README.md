@@ -1,5 +1,10 @@
 # Dockerized pentesterlab for SQLi
 
+## Dependencies:
+
+Docker and docker-compose. You can install these requirements with a single command:
+``sudo apt install docker-compose``
+
 ## How to use
 * Clone the repo:
 ``git clone https://github.com/juananpe/segurtasuna.git && cd segurtasuna``
