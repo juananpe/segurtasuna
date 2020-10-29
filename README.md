@@ -9,7 +9,7 @@ If you want to stop the container, open a new terminal and run:
 
 ## Screenshot
 
-![Running SQLi Lab](https://www.dropbox.com/s/yadfdukcxksdy8i/sqli_pentestlab.png?dl=1)
+![Running SQLi Lab](https://ikasten.io/images/sqli_pentestlab.png)
 
 ## Credits:
 This lab is a Dockerized version of https://pentesterlab.com/exercises/from_sqli_to_shell for educational purposes only
