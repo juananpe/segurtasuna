@@ -2,8 +2,11 @@
 
 ## Dependencies:
 
-Docker and docker-compose. You can install these requirements with a single command:
+Docker and docker-compose:
+
 ``sudo apt install docker-compose``
+``sudo apt install docker.io``
+
 
 ## How to use
 * Clone the repo:
