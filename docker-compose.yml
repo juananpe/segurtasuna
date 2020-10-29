@@ -1,0 +1,23 @@
+db:
+  image: mysql:5.7
+  environment:
+    MYSQL_DATABASE: photoblog
+    MYSQL_USER: pentesterlab
+    MYSQL_PASSWORD: pentesterlab
+    MYSQL_ROOT_PASSWORD: pentesterlab     
+  volumes:
+     - ./mysql-dump:/docker-entrypoint-initdb.d
+  expose: 
+    - 3306
+      
+pentesterlab:
+  image: orsolin/docker-php-5.3-apache
+  volumes:
+    - ./www:/var/www/html
+  expose:
+    - 80
+  ports:
+    - 8888:80
+  links: 
+    - db
+
