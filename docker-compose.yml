@@ -11,7 +11,7 @@ db:
     - 3306
       
 pentesterlab:
-  image: orsolin/docker-php-5.3-apache
+  image: juananpe/pentesterlab:v1_0
   volumes:
     - ./www:/var/www/html
   expose:
