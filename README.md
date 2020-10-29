@@ -2,11 +2,11 @@
 
 ## Dependencies:
 
-Docker and docker-compose:
+* Docker and docker-compose:
+``sudo apt install docker-compose docker.io``
 
-``sudo apt install docker-compose``
-``sudo apt install docker.io``
-
+* Run docker:
+``sudo dockerd``
 
 ## How to use
 * Clone the repo:
