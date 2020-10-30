@@ -8,6 +8,8 @@
            ``sudo usermod -a -G docker $USER``
   - Try to list running containers: (you should get an empty list, without errors)
   ``docker ps``
+  - Install docker compose
+  ``apt install docker-compose``
 
 
 * macOS:
