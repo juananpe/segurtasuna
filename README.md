@@ -19,6 +19,7 @@
 * Clone the repo:
 ``git clone https://github.com/juananpe/segurtasuna.git && cd segurtasuna``
 * Open a new terminal and run:
+``chmod a+w www/admin/uploads/``
 ``docker-compose up``
 
 If you want to stop the container, open a new terminal and run:
