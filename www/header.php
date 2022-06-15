@@ -25,11 +25,7 @@
         </li>
         <?php Category::render_menu(); ?>
         <li>
-          <a href="/all.php">All pictures |</a>
-        </li>
- 
-        <li>
-          <a href="/admin/">Admin</a>
+          <a href="/all.php">All pictures</a>
         </li>
         </ul>
       </div>
