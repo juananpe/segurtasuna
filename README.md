@@ -7,7 +7,6 @@
   - Open a PowerShell terminal
   - Clone the repo:
     ``git clone https://github.com/juananpe/segurtasuna.git && cd segurtasuna``
-  - Run: ``docker-compose up``
 * Ubuntu:
   - Install docker: https://docs.docker.com/engine/install/ubuntu/#installation-methods
   - Add your user to docker group.   **Run this command in your favourite shell and then completely log out of your account and log back in** (or exit your SSH session and reconnect, **if in doubt, reboot the computer** you are trying to run docker on!): 
