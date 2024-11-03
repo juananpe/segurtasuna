@@ -3,6 +3,7 @@ version: "3"
 services:
   db:
     image: mysql:5.7
+    platform: linux/amd64
     environment:
       MYSQL_DATABASE: photoblog
       MYSQL_USER: pentesterlab
@@ -12,9 +13,12 @@ services:
       - ./mysql-dump:/docker-entrypoint-initdb.d
     expose: 
       - 3306
+    ports:
+      - 3307:3306
         
   pentesterlab:
     image: juananpe/pentesterlab:v1_0
+    platform: linux/amd64
     volumes:
       - ./www:/var/www/html
     expose:
